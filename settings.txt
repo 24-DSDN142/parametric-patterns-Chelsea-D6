@@ -9,14 +9,16 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
-//your parameter variables go here!
 let rect_width  = 20;
 let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+
+let largeflower = 20; //changes large petal size
+let middlesquare = 209; //changes the colour of the middle square
+let centrecircle = 17; //changes center circle size
+let cornercircles = 199; //changes the colour of the corner circles 
+let boarder = 20; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
+//on lines 34 and 35: change stroke(226, 149, 205) and fill(226, 149, 205)
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -24,9 +26,11 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+
 }
 
 /////////////////////////////////
@@ -34,13 +38,39 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let rect_width  = 20;
+let rect_height = 20;
+
+let largeflower = 20; //changes large petal size
+let middlesquare = 209; //changes the colour of the middle square
+let centrecircle = 55.5; //changes center circle size
+let cornercircles = 199; //changes the colour of the corner circles 
+let boarder = 20; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
+//on line 103 and 104: change stroke(149, 154, 225) and fill(149, 154, 225) 
+
+function setup_wallpaper(pWallpaper) 
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+
+wallpaper 3:
+
+let rect_width  = 20;
+let rect_height = 20;
+
+let largeflower = 20; //changes large petal size
+let middlesquare = 209; //changes the colour of the middle square
+let centrecircle = 55.5; //changes center circle size
+let cornercircles = 199; //changes the colour of the corner circles 
+let boarder = 20; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
@@ -48,7 +78,154 @@ function setup_wallpaper(pWallpaper) {
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+
+wallpaper 4:
+
+let rect_width  = 20;
+let rect_height = 20;
+
+let largeflower = 20; //changes large petal size
+let middlesquare = 209; //changes the colour of the middle square
+let centrecircle = 17; //changes center circle size
+let cornercircles = 60; //changes the colour of the corner circles 
+let boarder = 20; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
+on lines 95, 96, 102 and 103: change 
+stroke(240, cornercircles, 72) and fill(240, cornercircles, 72)
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+
+wallpaper 5:
+
+let rect_width  = 20;
+let rect_height = 20;
+
+let largeflower = 20; //changes large petal size
+let middlesquare = 300; //changes the colour of the middle square
+let centrecircle = 17; //changes center circle size
+let cornercircles = 22; //changes the colour of the corner circles 
+let boarder = 20; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+
+wallpaper 6:
+
+let rect_width  = 20;
+let rect_height = 20;
+
+let largeflower = 10; //changes large petal size
+let middlesquare = 209; //changes the colour of the middle square
+let centrecircle = 17; //changes center circle size
+let cornercircles = 199; //changes the colour of the corner circles 
+let boarder = 10; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+
+  wallpaper 7:
+
+  let rect_width  = 20;
+let rect_height = 20;
+
+let largeflower = 20; //changes large petal size
+let middlesquare = 209; //changes the colour of the middle square
+let centrecircle = 17; //changes center circle size
+let cornercircles = 199; //changes the colour of the corner circles 
+let boarder = 20; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+
+  wallpaper 8:
+
+  let rect_width  = 20;
+let rect_height = 20;
+
+let largeflower = 20; //changes large petal size
+let middlesquare = 240; //changes the colour of the middle square
+let centrecircle = 17; //changes center circle size
+let cornercircles = 199; //changes the colour of the corner circles 
+let boarder = 10; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+
+}
+
+function wallpaper_background() {
+  background(149, 154, 225);
+
+  wallpaper 9:
+
+  let rect_width  = 20;
+let rect_height = 20;
+
+let largeflower = 60; //changes large petal size
+let middlesquare = 209; //changes the colour of the middle square
+let centrecircle = 17; //changes center circle size
+let cornercircles = 199; //changes the colour of the corner circles 
+let boarder = 5; // changes boarder size
+let drawmiddlecircle = true //adds middle circle
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 0;
+  angleMode(DEGREES)
+  
 }
